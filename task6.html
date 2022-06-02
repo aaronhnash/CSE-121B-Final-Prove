@@ -1,0 +1,65 @@
+<!-- This is an edited version of task4.html, modified for the current project-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CSE 121b: Week 04 | Sample Solution</title>
+	<link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Lesson 2</a></li>
+            <li><a href="#">Lesson 3</a></li>
+            <li><a href="#">Lesson 4</a></li>
+            <li><a href="#">Lesson 5</a></li>
+            <li><a href="#" class="active">Lesson 6</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>XKCD Random Generator</h1>
+        <img id="comic-img" src="images/placeholder.png" alt="Photo">
+    </header>
+    <main>
+        <section>
+            <div>
+                <label>Title:</label>
+                <span id="comic-title"></span>
+            </div>
+            <div>
+                <label>Comic Release Date:</label>
+                <span id="comic-date"></span>
+            </div>
+            <div>
+                <label>Comic Number:</label>
+                <span id="comic-number"></span>
+            </div>
+            <div>
+                <input type="button" id="random" value="Random Comic">
+            </div>
+            <div>
+                <label for="go-to">Go To:</label>
+                <input type="text" id="go-to" name="go-to">
+            </div>
+            <div>
+                <input type="button" id="go" value="Go!">
+            </div>
+
+        </section>
+    </main>
+	<footer>
+        &copy;<span id="year"></span> | Random XKCD Comic Generator | Lesson 6
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/task6.js"></script>
+</body>
+
+</html>
